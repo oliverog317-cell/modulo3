@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  background-color: #1a1a1a;
+  color: #aab0b8;
+  font-family: Arial, sans-serif;
+}
+
+.formulario {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+.formulario h1 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 32px;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18px;
+}
+
+.campo label {
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+
+.campo input,
+.campo select,
+.campo textarea {
+  background-color: #3f3f3f;
+  color: #ffffff;
+  border: 1px solid #666;
+  border-radius: 3px;
+  padding: 6px;
+  font-size: 16px;
+}
+
+.campo-checkbox {
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+
+.campo-checkbox label {
+  margin-bottom: 0;
+}
