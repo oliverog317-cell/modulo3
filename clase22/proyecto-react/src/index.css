@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  background-color: #1a1a1a;
-  color: #aab0b8;
+  background-color: #23016c;
+  color: #f2f1ff;
   font-family: Arial, sans-serif;
 }
 
@@ -31,8 +31,8 @@ body {
 .campo input,
 .campo select,
 .campo textarea {
-  background-color: #3f3f3f;
-  color: #ffffff;
+  background-color: #f2f1ff;
+  color: darkslategray;
   border: 1px solid #666;
   border-radius: 3px;
   padding: 6px;
